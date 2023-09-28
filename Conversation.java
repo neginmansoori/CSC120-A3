@@ -26,7 +26,6 @@ class Conversation {
     return words;
   }
 
-
   public static void main(String[] arguments) {
     // You will start the conversation here.
     
@@ -44,10 +43,9 @@ class Conversation {
     String[] automated_response = word_swap(transcript);
     System.out.println(automated_response);
       }
-    }
   
     // closing sentence
-    //System.out.println("Have a nice day!");
-
-  }
+    System.out.println("Have a nice day!");
+    }
+  }  
     
